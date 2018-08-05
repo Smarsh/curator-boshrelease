@@ -1,0 +1,10 @@
+---
+name: curator
+
+templates: {}
+
+packages:
+- python3
+- curator
+
+properties: {}

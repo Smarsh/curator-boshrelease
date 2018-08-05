@@ -1,0 +1,26 @@
+---
+name: curator
+
+dependencies:
+- python3
+
+files:
+- curator/PyYAML-3.13.tar.gz
+- curator/boto3-1.7.70.tar.gz
+- curator/botocore-1.10.70.tar.gz
+- curator/certifi-2018.4.16.tar.gz
+- curator/chardet-3.0.4.tar.gz
+- curator/click-6.7.tar.gz
+- curator/docutils-0.14.tar.gz
+- curator/elasticsearch-6.3.0.tar.gz
+- curator/elasticsearch-curator-5.5.4.tar.gz
+- curator/futures-3.2.0.tar.gz
+- curator/idna-2.7.tar.gz
+- curator/jmespath-0.9.3.tar.gz
+- curator/python-dateutil-2.7.3.tar.gz
+- curator/requests-2.19.1.tar.gz
+- curator/requests-aws4auth-0.9.tar.gz
+- curator/s3transfer-0.1.13.tar.gz
+- curator/six-1.11.0.tar.gz
+- curator/urllib3-1.23.tar.gz
+- curator/voluptuous-0.11.5.tar.gz
