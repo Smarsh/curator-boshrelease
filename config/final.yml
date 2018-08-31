@@ -1,1 +1,5 @@
-name: curator-boshrelease
+name: curator
+blobstore:
+  provider: local
+  options:
+    blobstore_path: /tmp/curator
