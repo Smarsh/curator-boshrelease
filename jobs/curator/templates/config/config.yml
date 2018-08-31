@@ -1,15 +1,10 @@
 <%
   elasticsearch_hosts = nil
-  elasticsearch_port = nil
   if_link("elasticsearch") { |elasticsearch_link|
     elasticsearch_hosts = elasticsearch_link.instances.map { |instance| instance.address }
-    elasticsearch_port = elasticsearch_link.p("elasticsearch.port")
   }
   unless elasticsearch_hosts
     elasticsearch_hosts = p("curator.elasticsearch.hosts")
-  end
-  unless elasticsearch_port
-    elasticsearch_port = p("curator.elasticsearch.port")
   end
 %>
 ---
@@ -17,7 +12,7 @@
 # not a Python "NoneType"
 client:
   hosts: <%= elasticsearch_hosts %>
-  port: p("curator.elasticsearch.port")
+  port: <%= p("curator.elasticsearch.port") %>
   url_prefix:
   use_ssl: False
   certificate:
