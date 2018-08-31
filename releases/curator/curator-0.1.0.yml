@@ -1,0 +1,21 @@
+name: curator
+version: 0.1.0
+commit_hash: ab3b960
+uncommitted_changes: true
+jobs:
+- name: curator
+  version: afc64f775ea59de7f01cce09d853f287e6ebe717
+  fingerprint: afc64f775ea59de7f01cce09d853f287e6ebe717
+  sha1: 1e7ebad027855d130ca4b481346390499ded7c91
+packages:
+- name: curator
+  version: b802e586ae3b2333335a0322c21cbbd23562ffb7
+  fingerprint: b802e586ae3b2333335a0322c21cbbd23562ffb7
+  sha1: 63f4474bfbfa722f76da181a72166b43b821d53e
+  dependencies:
+  - python3
+- name: python3
+  version: bd634f169f58d5d0d05a7f8d524f89f9e5120df9
+  fingerprint: bd634f169f58d5d0d05a7f8d524f89f9e5120df9
+  sha1: d684bfd0714125f564e1de2d8add56588795a0d9
+  dependencies: []
