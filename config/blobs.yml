@@ -4,12 +4,21 @@ curator/PyYAML-3.13.tar.gz:
 curator/boto3-1.7.70.tar.gz:
   size: 93224
   sha: 62c328ce779b0208f94f2a3ce3af0df844224815
+curator/boto3-1.8.5.tar.gz:
+  size: 93119
+  sha: 362151c1b4988ba9205247a79b94735ef13872e0
 curator/botocore-1.10.70.tar.gz:
   size: 4556541
   sha: 66a336127e156897732a3d1b954491fa90dab1c4
+curator/botocore-1.11.5.tar.gz:
+  size: 4783220
+  sha: 40a2e26e08dad77f25243cd52c74696f0f9e8c1c
 curator/certifi-2018.4.16.tar.gz:
   size: 149967
   sha: 46ce2a401f875249b155328dfa92d1ac44145f20
+curator/certifi-2018.8.24.tar.gz:
+  size: 146866
+  sha: cc1ab6c25a8c8079ab3ff1019530506cfd59bef7
 curator/chardet-3.0.4.tar.gz:
   size: 1868453
   sha: 4766fb07e700945a7085d073257f1f320d037ce8
@@ -22,6 +31,9 @@ curator/docutils-0.14.tar.gz:
 curator/elasticsearch-6.3.0.tar.gz:
   size: 72480
   sha: e8824e8a0857581df5292eabe6cde9a72505f929
+curator/elasticsearch-6.3.1.tar.gz:
+  size: 71689
+  sha: 2af07698126e6db63cbebfa338ccb33bc149dc95
 curator/elasticsearch-curator-5.5.4.tar.gz:
   size: 214392
   sha: 7aaddfc84b8b4b8decbb5095237bfbf2aabea9c4
