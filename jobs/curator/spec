@@ -4,7 +4,7 @@ name: curator
 templates:
   bin/run.sh: bin/run
   config/config.yml: config/config.yml
-  config/action.yml: config/action.yml
+  config/actions.yml: config/actions.yml
 
 
 packages:
