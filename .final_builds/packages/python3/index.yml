@@ -1,6 +1,0 @@
-builds:
-  bd634f169f58d5d0d05a7f8d524f89f9e5120df9:
-    version: bd634f169f58d5d0d05a7f8d524f89f9e5120df9
-    blobstore_id: c7346cf5-8a46-4282-573c-67b488d48038
-    sha1: d684bfd0714125f564e1de2d8add56588795a0d9
-format-version: "2"
