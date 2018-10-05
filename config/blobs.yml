@@ -1,3 +1,6 @@
+curator/Click-7.0.tar.gz:
+  size: 286192
+  sha: fcbbb6d25b8eb45f7919e8605ec33b33583b0217
 curator/PyYAML-3.13.tar.gz:
   size: 270607
   sha: 22f95fe2f5ef29ab17110f92c7186e2cfde6b419
@@ -7,12 +10,18 @@ curator/boto3-1.7.70.tar.gz:
 curator/boto3-1.8.5.tar.gz:
   size: 93119
   sha: 362151c1b4988ba9205247a79b94735ef13872e0
+curator/boto3-1.9.17.tar.gz:
+  size: 93184
+  sha: 86b446f7eef06239f02a0785ff0c6beb3ad23f3c
 curator/botocore-1.10.70.tar.gz:
   size: 4556541
   sha: 66a336127e156897732a3d1b954491fa90dab1c4
 curator/botocore-1.11.5.tar.gz:
   size: 4783220
   sha: 40a2e26e08dad77f25243cd52c74696f0f9e8c1c
+curator/botocore-1.12.17.tar.gz:
+  size: 4826862
+  sha: 3c9eed206f960520f95d44a215100ea9c3794af4
 curator/certifi-2018.4.16.tar.gz:
   size: 149967
   sha: 46ce2a401f875249b155328dfa92d1ac44145f20
