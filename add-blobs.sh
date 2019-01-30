@@ -20,6 +20,8 @@ blob_download() {
 blob_download python3 https://www.python.org/ftp/python/3.5.6/Python-3.5.6.tgz Python-3.5.6.tgz
 
 pip download -d curator --no-binary :all: elasticsearch-curator==5.5.4
+pip download -d curator --no-binary :all: setuptools_scm==3.2.0
+
 for f in $(ls curator/*.tar.gz);do 
   bosh add-blob --dir=${DIR} ${f} ${f}
 done
