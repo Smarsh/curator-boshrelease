@@ -24,6 +24,33 @@ properties:
   curator.elasticsearch.port:
     description: Port of elasticsearch
     default: "9200"
+  curator.elasticsearch.url_prefix:
+    description: URL prefix for Elasticsearch if behind proxy
+    default: ""
+  curator.elasticsearch.use_ssl:
+    description: Use SSL/TLS for connection to Elasticsearch
+    default: False
+  curator.elasticsearch.certificate:
+    description: Allows the use of a specified CA certificate file to validate the SSL certificate used by Elasticsearch
+    default: ""
+  curator.elasticsearch.client_cert:
+    description: Allows the use of a specified SSL client cert file to authenticate to Elasticsearch
+    default: ""
+  curator.elasticsearch.client_key:
+    description: Allows the use of a specified SSL client key file to authenticate to Elasticsearch
+    default: ""
+  curator.elasticsearch.ssl_no_validate:
+    description: SSL certificate verification
+    default: False
+  curator.elasticsearch.http_auth:
+    description: "Authentication credentials (e.g. user:pass)"
+    default: ""
+  curator.elasticsearch.timeout:
+    description: Default client connection timeout
+    default: 30
+  curator.elasticsearch.master_only:
+    description: Only run on node that is the elected master
+    default: False
   curator.actions:
     desctioon: contents of actions.yml
     example: |

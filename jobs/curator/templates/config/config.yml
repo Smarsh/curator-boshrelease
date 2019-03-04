@@ -13,15 +13,15 @@
 client:
   hosts: <%= elasticsearch_hosts %>
   port: <%= p("curator.elasticsearch.port") %>
-  url_prefix:
-  use_ssl: False
-  certificate:
-  client_cert:
-  client_key:
-  ssl_no_validate: False
-  http_auth:
-  timeout: 30
-  master_only: False
+  url_prefix: <%= p("curator.elasticsearch.url_prefix") %>
+  use_ssl: <%= p("curator.elasticsearch.use_ssl") %>
+  certificate: <%= p("curator.elasticsearch.certificate") %>
+  client_cert: <%= p("curator.elasticsearch.client_cert") %>
+  client_key: <%= p("curator.elasticsearch.client_key") %>
+  ssl_no_validate: <%= p("curator.elasticsearch.ssl_no_validate") %>
+  http_auth: <%= p("curator.elasticsearch.http_auth") %>
+  timeout: <%= p("curator.elasticsearch.timeout") %>
+  master_only: <%= p("curator.elasticsearch.master_only") %>
 
 logging:
   loglevel: INFO
