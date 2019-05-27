@@ -1,0 +1,28 @@
+name: curator
+version: 0.3.0
+commit_hash: 00219ba
+uncommitted_changes: false
+jobs:
+- name: curator
+  version: f9e1b043059a1257c1a65b9ea2ece788c1e5bfafe7a41c9604d1132935fc99a0
+  fingerprint: f9e1b043059a1257c1a65b9ea2ece788c1e5bfafe7a41c9604d1132935fc99a0
+  sha1: sha256:f241583ba078be0793c273d11dc5353d9c2bda99c32731612ef100052523224a
+  packages:
+  - python3
+  - curator
+packages:
+- name: curator
+  version: 2a35975f71db1f4a588fc64cf4bb362ddeeadc956cb334267decb28be1904043
+  fingerprint: 2a35975f71db1f4a588fc64cf4bb362ddeeadc956cb334267decb28be1904043
+  sha1: sha256:ea9be4cf56d3324c3d75c52afe991fbd70064905f5784d783266bb51cb7c26c9
+  dependencies:
+  - python3
+- name: python3
+  version: 2ccaefff22129cbc72624d127e31a3d092644a869eea4a128517642c6ba0cf4c
+  fingerprint: 2ccaefff22129cbc72624d127e31a3d092644a869eea4a128517642c6ba0cf4c
+  sha1: sha256:b66d2ec1dce4311e16de920da8062ebb6858f507a0eb556f668901a80c602173
+  dependencies: []
+license:
+  version: 497961e97a84a4ba8f2b8f9448d6539fd04d070ae843af09bd4910a728ff7127
+  fingerprint: 497961e97a84a4ba8f2b8f9448d6539fd04d070ae843af09bd4910a728ff7127
+  sha1: sha256:5bdce12df7570c1728b3aab4afbdfbe68529a8d8e8b8127b1214a852159ee084
