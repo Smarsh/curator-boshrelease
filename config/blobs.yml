@@ -1,83 +1,87 @@
 curator/Click-7.0.tar.gz:
   size: 286192
-  object_id: 075d2136-7b93-4c76-7319-e3372312baec
-  sha: fcbbb6d25b8eb45f7919e8605ec33b33583b0217
+  object_id: a70cef82-0e1c-4496-47ad-4e2689576410
+  sha: sha256:5b94b49521f6456670fdb30cd82a4eca9412788a93fa6dd6df72c94d5a8ff2d7
 curator/PyYAML-3.13.tar.gz:
   size: 270607
-  object_id: 09674508-f22b-4bc5-470a-eefc10f448b7
-  sha: 22f95fe2f5ef29ab17110f92c7186e2cfde6b419
-curator/boto3-1.9.86.tar.gz:
-  size: 93188
-  object_id: 03392744-2ff9-4642-5606-82f5acb4c381
-  sha: 90340b944e8d017743ad7c03cbdb181bfc903533
-curator/botocore-1.12.86.tar.gz:
-  size: 5400187
-  object_id: f8ae9c4b-1154-4dde-6917-55f25f7c7edd
-  sha: 886e0fea6d05f91d491b5f41885620a34ee3ffdd
-curator/certifi-2018.11.29.tar.gz:
-  size: 153772
-  object_id: ab562d25-d0e6-4bc4-421a-b67c0db0d65d
-  sha: 673bf8bc29d7ee0a1a0d8af74d050e5769fec2a9
+  object_id: 91d4993d-7471-4050-58c3-8e84716d05eb
+  sha: sha256:3ef3092145e9b70e3ddd2c7ad59bdd0252a94dfe3949721633e41344de00a6bf
+curator/boto3-1.9.156.tar.gz:
+  size: 97269
+  object_id: abe2c8f3-a735-4896-41c4-552b675df226
+  sha: sha256:59782c178af2d5acf66315fe96b3cd1dc075109c0296c384e18a6c4143c0745d
+curator/botocore-1.12.156.tar.gz:
+  size: 5578001
+  object_id: f17a66b9-7a9f-44c9-591d-27387906cf2b
+  sha: sha256:a12a817bf1faf36837bc2d371aacfb5c7c324e0e9f0b3af94b9930cfcd8d62ea
+curator/certifi-2019.3.9.tar.gz:
+  size: 158179
+  object_id: e308a6cd-3d24-4eba-744b-b289a04af96e
+  sha: sha256:b26104d6835d1f5e49452a26eb2ff87fe7090b89dfcaee5ea2212697e1e1d7ae
 curator/chardet-3.0.4.tar.gz:
   size: 1868453
-  object_id: dad9664e-7de9-4eb1-4c1c-ba308407a9cf
-  sha: 4766fb07e700945a7085d073257f1f320d037ce8
+  object_id: 59d71779-8489-4a91-53c8-a63ab0a83889
+  sha: sha256:84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae
+curator/click-6.7.tar.gz:
+  size: 279019
+  object_id: b79d9e19-1072-4a93-5caa-83b77ed84b86
+  sha: sha256:f15516df478d5a56180fbf80e68f206010e6d160fc39fa508b65e035fd75130b
 curator/docutils-0.14.tar.gz:
   size: 1727105
-  object_id: 6e98f318-cee7-44db-6a7c-e4d2ca9661d5
-  sha: 32cefb69ac3dab5b04c4d150776f35419cc4c863
-curator/elasticsearch-6.3.1.tar.gz:
-  size: 71689
-  object_id: 44664bc1-8a2e-4b04-780c-4b91d44a4156
-  sha: 2af07698126e6db63cbebfa338ccb33bc149dc95
-curator/elasticsearch-curator-5.5.4.tar.gz:
-  size: 214392
-  object_id: 4c1c7d23-9c88-46b0-63e3-3090d6024ee2
-  sha: 7aaddfc84b8b4b8decbb5095237bfbf2aabea9c4
+  object_id: 5826fe61-1fc4-473b-4425-bda4d2c22efa
+  sha: sha256:51e64ef2ebfb29cae1faa133b3710143496eca21c530f3f71424d77687764274
+curator/elasticsearch-7.0.1.tar.gz:
+  size: 84633
+  object_id: fbd441f8-b344-4b39-44ac-cbe25333c55d
+  sha: sha256:445c6ea9c55c493bae635718de6b276034f55378c836f9550ae49dd8cd04a02b
+curator/elasticsearch-curator-5.7.6.tar.gz:
+  size: 218244
+  object_id: 1d251e8e-2f61-49cf-4b17-d890c86b3c3e
+  sha: sha256:ba4a9da2fe20e05642e9a41c051fea425a08926bf4537336430e338e993cd828
 curator/futures-3.2.0.tar.gz:
   size: 27320
-  object_id: 20c3877f-13b7-42c6-7be1-f69080233e7c
-  sha: ca2da8b80e81095ded372c0b545ae0fdae6027c4
+  object_id: 6bbba311-f792-47ff-59dc-d4c05f6faf96
+  sha: sha256:9ec02aa7d674acb8618afb127e27fde7fc68994c0437ad759fa094a574adb265
 curator/idna-2.8.tar.gz:
   size: 174481
-  object_id: 6b3744c7-d2b9-49b5-4582-6dbbf72d484a
-  sha: c1e59def26dac74a2ec53181032df76d40368657
-curator/jmespath-0.9.3.tar.gz:
-  size: 22967
-  object_id: 5814ccf5-f9f3-46a3-4a64-3708e9162c74
-  sha: eca7ba2e8d4fc50239973b59e07f9f527e0c0839
-curator/python-dateutil-2.7.5.tar.gz:
-  size: 316043
-  object_id: 722d9c06-37ad-4739-65e4-81a432ad2dd1
-  sha: c99d3a05d0ac220bc736e5e6c169be0ab4a75298
-curator/requests-2.21.0.tar.gz:
-  size: 111528
-  object_id: d135d50d-a5f2-459e-51a4-c15394df3712
-  sha: 970805c2affcc5b237d86e7308dc4310f16d6f79
+  object_id: 69656454-bb6f-4751-7d79-5a94ffe8bf82
+  sha: sha256:c357b3f628cf53ae2c4c05627ecc484553142ca23264e593d327bcde5e9c3407
+curator/jmespath-0.9.4.tar.gz:
+  size: 22940
+  object_id: f300ba03-77af-4786-42fc-1b6038c1592c
+  sha: sha256:bde2aef6f44302dfb30320115b17d030798de8c4110e28d5cf6cf91a7a31074c
+curator/python-dateutil-2.8.0.tar.gz:
+  size: 327134
+  object_id: ecf23fa6-a685-4ddb-6b2c-14d77b31cb5b
+  sha: sha256:c89805f6f4d64db21ed966fda138f8a5ed7a4fdbc1a8ee329ce1b74e3c74da9e
+curator/requests-2.22.0.tar.gz:
+  size: 113406
+  object_id: 1b154e1c-f178-4b49-5c37-52eeb6cd683d
+  sha: sha256:11e007a8a2aa0323f5a921e9e6a2d7e4e67d9877e85773fba9ba6419025cbeb4
 curator/requests-aws4auth-0.9.tar.gz:
   size: 44486
-  object_id: d047ca92-d9c2-4cd5-63df-84a0a4ff0b69
-  sha: e32e9df21c7c790b6f2580463b861a92318b89c2
-curator/s3transfer-0.1.13.tar.gz:
-  size: 103335
-  object_id: 1e9fc389-8b10-4207-5c2c-e79071580e5e
-  sha: b85fa93fbd4d9553f1338b68cb7abb70b3de1d71
+  object_id: e8fdc074-ad95-4311-7e06-ada49bccdcf4
+  sha: sha256:c9973af472d6d358ee301f077608361e078642aa019785139b588d526f50a23c
+curator/s3transfer-0.2.0.tar.gz:
+  size: 118361
+  object_id: de86fd06-6bc7-49fd-7ed3-7952ccf25b92
+  sha: sha256:f23d5cb7d862b104401d9021fc82e5fa0e0cf57b7660a1331425aab0c691d021
 curator/setuptools_scm-3.2.0.tar.gz:
   size: 39646
-  object_id: 29428d44-d979-4f59-4215-3f65f1093ebe
-  sha: 531c470ffe4b965aedc06f56d0dc8fa57ccf6d2a
+  object_id: b168f213-cd9a-4b3b-75b6-87098672c409
+  sha: sha256:52ab47715fa0fc7d8e6cd15168d1a69ba995feb1505131c3e814eb7087b57358
 curator/six-1.12.0.tar.gz:
   size: 32725
-  object_id: 239fcadd-8ae3-4ab3-72c8-e77029d59142
-  sha: 1957b44942be21822414f4dde936e6c40b687565
-curator/urllib3-1.24.1.tar.gz:
-  size: 229688
-  object_id: 09924c83-8985-46e9-5461-f8d85b402e67
-  sha: 2d5593e48a650e4ba05358c7d2de865684001948
+  object_id: e21e1645-5809-4bc7-6e3b-c7cb56ab7893
+  sha: sha256:d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73
+curator/urllib3-1.24.3.tar.gz:
+  size: 232237
+  object_id: 173bfd13-aa39-473b-4d20-80d5fcdf13a3
+  sha: sha256:2393a695cd12afedd0dcb26fe5d50d0cf248e5a66f75dbd89a3d4eb333a61af4
 curator/voluptuous-0.11.5.tar.gz:
   size: 44216
-  object_id: e8382cbc-1b29-4f3a-7edd-1b795b7e781a
-  sha: 8c0aff29b0bae42d001aa304aa056a186b7b03c8
+  object_id: 7c3ef080-03eb-414b-51fc-6dd003bc3ac4
+  sha: sha256:567a56286ef82a9d7ae0628c5842f65f516abcb496e74f3f59f1d7b28df314ef
 python3/Python-3.5.6.tgz:
   size: 20763023
   object_id: 5c59f3f8-50b4-4291-653c-b308fada2086
