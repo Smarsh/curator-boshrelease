@@ -2,10 +2,10 @@ curator/Click-7.0.tar.gz:
   size: 286192
   object_id: a70cef82-0e1c-4496-47ad-4e2689576410
   sha: sha256:5b94b49521f6456670fdb30cd82a4eca9412788a93fa6dd6df72c94d5a8ff2d7
-curator/PyYAML-3.13.tar.gz:
-  size: 270607
-  object_id: 91d4993d-7471-4050-58c3-8e84716d05eb
-  sha: sha256:3ef3092145e9b70e3ddd2c7ad59bdd0252a94dfe3949721633e41344de00a6bf
+curator/PyYAML-3.12.tar.gz:
+  size: 253011
+  object_id: 6202340c-bbaa-4676-6a03-db747730633a
+  sha: sha256:592766c6303207a20efc445587778322d7f73b161bd994f227adaa341ba212ab
 curator/boto3-1.9.156.tar.gz:
   size: 97269
   object_id: abe2c8f3-a735-4896-41c4-552b675df226
