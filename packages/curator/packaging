@@ -7,4 +7,4 @@ export PYTHONPATH=${BOSH_INSTALL_TARGET}/lib/python3.8/site-packages/
 
 #pip3 install --no-use-pep517 --no-index --find-links ./curator/ --prefix=${BOSH_INSTALL_TARGET} setuptools_scm
 pip3 install --no-use-pep517 --no-index --find-links ./curator/ --prefix=${BOSH_INSTALL_TARGET} setuptools
-pip3 install --no-use-pep517 --no-index --find-links ./curator/ --prefix=${BOSH_INSTALL_TARGET} elasticsearch-curator
+pip3 install --no-index --find-links ./curator/ --prefix=${BOSH_INSTALL_TARGET} elasticsearch-curator
