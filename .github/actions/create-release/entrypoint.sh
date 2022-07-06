@@ -53,7 +53,7 @@ pip download -d curator --no-binary :all: setuptools_scm==3.2.0
 
 echo "Adding Blobs"
 for f in $(ls curator/*.tar.gz);do 
-  bosh add-blob --dir=${blob_dir} ${f} ${f}
+  bosh add-blob --dir=${blob_dir} $(echo ${f} | cut -d/ -f2) ${f}
 done
 
 cd ../
