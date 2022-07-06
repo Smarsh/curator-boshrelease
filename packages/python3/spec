@@ -4,4 +4,4 @@ name: python3
 dependencies: []
 
 files:
-- python3/Python-3.6.0.tgz
+- python3/Python-3.8.0.tgz
