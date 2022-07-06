@@ -13,9 +13,24 @@ curator/elasticsearch-6.8.2.tar.gz:
 curator/elasticsearch-curator-5.4.0.tar.gz:
   size: 197717
   sha: sha256:2611f4e8d863b4d9df78ca3de1733a3995ac70c4e3d49a39824e0a45fe6fe8b4
-curator/setuptools_scm-3.2.0.tar.gz:
-  size: 39646
-  sha: sha256:52ab47715fa0fc7d8e6cd15168d1a69ba995feb1505131c3e814eb7087b57358
+curator/packaging-21.3.tar.gz:
+  size: 84848
+  sha: sha256:dd47c42927d89ab911e606518907cc2d3a1f38bbd026385970643f9c5b8ecfeb
+curator/pyparsing-3.0.9.tar.gz:
+  size: 1999906
+  sha: sha256:2b020ecf7d21b687f219b71ecad3631f644a47f01403fa1d1036b0c6416d70fb
+curator/setuptools-63.1.0.tar.gz:
+  size: 2599380
+  sha: sha256:16923d366ced322712c71ccb97164d07472abeecd13f3a6c283f6d5d26722793
+curator/setuptools_scm-7.0.4.tar.gz:
+  size: 70512
+  sha: sha256:c27bc1f48593cfc9527251f1f0fc41ce282ea57bbc7fd5a1ea3acb99325fab4c
+curator/tomli-2.0.1.tar.gz:
+  size: 15164
+  sha: sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f
+curator/typing_extensions-4.3.0.tar.gz:
+  size: 47430
+  sha: sha256:e6d2677a32f47fc7eb2795db1dd15c1f34eff616bcaf2cfb5e997f854fa1c4a6
 curator/urllib3-1.26.9.tar.gz:
   size: 295258
   sha: sha256:aabaf16477806a5e1dd19aa41f8c2b7950dd3c746362d7e3223dbe6de6ac448e
