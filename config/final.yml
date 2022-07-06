@@ -1,7 +1,6 @@
-name: curator
+---
+name: curator-boshrelease
 blobstore:
-  provider: s3
+  provider: local
   options:
-    bucket_name: curator-boshrelease
-    region: ap-northeast-1
-    endpoint: https://s3-ap-northeast-1.amazonaws.com
+    blobstore_path: /github/workspace/blobs
