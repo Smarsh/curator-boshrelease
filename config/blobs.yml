@@ -25,3 +25,9 @@ curator/voluptuous-0.13.1.tar.gz:
 python3/Python-3.8.0.tgz:
   size: 23949883
   sha: sha256:f1069ad3cae8e7ec467aa98a6565a62a48ef196cb8f1455a245a08db5e1792df
+python3/libffi-dev_3.2.1-8_amd64.deb:
+  size: 156164
+  sha: sha256:ddf07b70dbef7858e3c0df764d3ee12bef12f1badcd947d4614d6567c7026969
+python3/libffi6_3.2.1-8_amd64.deb:
+  size: 17948
+  sha: sha256:fa26945b0aadfc72ec623c68be9cc59235a7fe42e2388f7015fd131f4fb06dc9
