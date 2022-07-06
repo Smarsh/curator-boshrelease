@@ -1,0 +1,28 @@
+name: Create Bosh Release
+
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - 'build-version'
+
+jobs:
+  build-release:
+    runs-on: ubuntu-latest
+    name: Create Release
+    steps:
+      - uses: actions/checkout@v2
+      - name: Create Bosh Release
+        id: bosh_release
+        uses: ./.github/actions/create-release/
+        env:
+          VERSION_FILE: curator-version
+          BUILD_FILE: build-version
+      - name: Create Git Release
+        uses: meeDamian/github-release@2.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ steps.bosh_release.outputs.version }}
+          files: ${{ steps.bosh_release.outputs.file }}
+          gzip: false

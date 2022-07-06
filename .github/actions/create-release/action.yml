@@ -1,0 +1,23 @@
+# action.yml
+name: "bosh-releaser"
+description: "Creates new version of bosh release"
+
+inputs:
+  target_branch:
+    description: "Branch name to push release commit"
+    required: false
+    default: master
+  bundle:
+    description: "Install bundle at given version, useful for some pre_packaging scripts"
+    required: false
+    default: false
+
+outputs:
+  file:
+    description: "generated bosh release filename"
+  version:
+    description: "version of the generated bosh release"
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
