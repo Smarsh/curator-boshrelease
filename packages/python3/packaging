@@ -13,3 +13,7 @@ pushd Python-${PYTHON_VERSION}
   make -j${CPUS}
   make install
 popd
+
+dpkg -i python3/libffi6_3.2.1-8_amd64.deb
+dpkg -i python3/libffi-dev_3.2.1-8_amd64.de
+apt-get install -f
