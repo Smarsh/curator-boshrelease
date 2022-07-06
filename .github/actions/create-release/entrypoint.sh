@@ -56,7 +56,9 @@ bosh add-blob --dir=${blob_dir} libffi-dev_3.2.1-8_amd64.deb python3/libffi-dev_
 echo "Downloading Curator"
 pip download -d curator --no-binary :all: elasticsearch-curator==${version}
 echo "Downloading Setuptools"
-pip download -d curator --no-binary :all: setuptools_scm==3.2.0
+pip download -d curator --no-binary :all: setuptools==63.1.0
+echo "Downloading Setuptools_scm"
+pip download -d curator --no-binary :all: setuptools_scm==7.0.4
 
 echo "Adding Blobs"
 for f in $(ls curator/*.tar.gz);do 
