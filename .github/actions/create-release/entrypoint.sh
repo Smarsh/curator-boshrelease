@@ -56,6 +56,7 @@ for f in $(ls curator/*.tar.gz);do
   bosh add-blob --dir=${blob_dir} ${f} ${f}
 done
 
+cd ../
 echo "creating bosh release: ${name}-${release_version}.tgz"
 bosh create-release --force --final --version=${release_version} --tarball=${name}-${release_version}.tgz
 
