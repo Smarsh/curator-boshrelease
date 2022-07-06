@@ -22,6 +22,6 @@ curator/urllib3-1.26.9.tar.gz:
 curator/voluptuous-0.13.1.tar.gz:
   size: 47706
   sha: sha256:e8d31c20601d6773cb14d4c0f42aee29c6821bbd1018039aac7ac5605b489723
-python3/Python-3.5.6.tgz:
-  size: 20763023
-  sha: sha256:30d2ff093988e74283e1abfee823292c6b59590796b9827e95ba4940b27d26f8
+python3/Python-3.6.0.tgz:
+  size: 22256403
+  sha: sha256:aa472515800d25a3739833f76ca3735d9f4b2fe77c3cb21f69275e0cce30cb2b
