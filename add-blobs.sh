@@ -17,7 +17,7 @@ blob_download() {
   fi
 }
 
-blob_download python3 https://www.python.org/ftp/python/3.5.6/Python-3.5.6.tgz Python-3.5.6.tgz
+blob_download python3 https://www.python.org/ftp/python/3.6.0/Python-3.6.0.tgz Python-3.6.0.tgz
 
 pip download -d curator --no-binary :all: elasticsearch-curator==5.8.4
 pip download -d curator --no-binary :all: setuptools_scm==3.2.0

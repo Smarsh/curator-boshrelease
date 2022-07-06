@@ -43,8 +43,8 @@ echo "name: $name"
 mkdir -p .downloads
 cd .downloads
 echo "Downloading Python"
-curl -L -J -o Python-3.5.6.tgz https://www.python.org/ftp/python/3.5.6/Python-3.5.6.tgz
-bosh add-blob --dir=${blob_dir} Python-3.5.6.tgz python3/Python-3.5.6.tgz 
+curl -L -J -o Python-3.6.0.tgz https://www.python.org/ftp/python/3.6.0/Python-3.6.0.tgz
+bosh add-blob --dir=${blob_dir} Python-3.6.0.tgz python3/Python-3.6.0.tgz 
 
 echo "Downloading Curator"
 pip download -d curator --no-binary :all: elasticsearch-curator==${version}
