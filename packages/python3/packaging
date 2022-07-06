@@ -4,6 +4,10 @@ CPUS=`grep -c ^processor /proc/cpuinfo`
 PYTHON_VERSION=3.8.0
 tar xzf python3/Python-${PYTHON_VERSION}.tgz
 
+dpkg -i python3/libffi6_3.2.1-8_amd64.deb
+dpkg -i python3/libffi-dev_3.2.1-8_amd64.deb
+apt-get install -f
+
 pushd Python-${PYTHON_VERSION}
   ./configure \
     --prefix=${BOSH_INSTALL_TARGET} \
@@ -13,7 +17,3 @@ pushd Python-${PYTHON_VERSION}
   make -j${CPUS}
   make install
 popd
-
-dpkg -i python3/libffi6_3.2.1-8_amd64.deb
-dpkg -i python3/libffi-dev_3.2.1-8_amd64.de
-apt-get install -f

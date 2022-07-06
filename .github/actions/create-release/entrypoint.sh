@@ -46,8 +46,10 @@ echo "Downloading Python"
 curl -L -J -o Python-3.8.0.tgz https://www.python.org/ftp/python/3.8.0/Python-3.8.0.tgz
 bosh add-blob --dir=${blob_dir} Python-3.8.0.tgz python3/Python-3.8.0.tgz 
 
+echo "Downloading libffi6"
 curl -L -J -o libffi6_3.2.1-8_amd64.deb http://archive.ubuntu.com/ubuntu/pool/main/libf/libffi/libffi6_3.2.1-8_amd64.deb
 bosh add-blob --dir=${blob_dir} libffi6_3.2.1-8_amd64.deb python3/libffi6_3.2.1-8_amd64.deb
+echo "Downloading libffi-dev"
 curl -L -J -o libffi-dev_3.2.1-8_amd64.deb http://archive.ubuntu.com/ubuntu/pool/main/libf/libffi/libffi-dev_3.2.1-8_amd64.deb
 bosh add-blob --dir=${blob_dir} libffi-dev_3.2.1-8_amd64.deb python3/libffi-dev_3.2.1-8_amd64.deb
 
