@@ -1,28 +1,28 @@
 name: curator-boshrelease
-version: 5.4.0-8
-commit_hash: f71f488
+version: 5.4.0-9
+commit_hash: c4a9afc
 uncommitted_changes: true
 jobs:
 - name: curator
   version: f9e1b043059a1257c1a65b9ea2ece788c1e5bfafe7a41c9604d1132935fc99a0
   fingerprint: f9e1b043059a1257c1a65b9ea2ece788c1e5bfafe7a41c9604d1132935fc99a0
-  sha1: sha256:1a8e57be8c0759547ea780899ec2ef5aee304897e9185941a6056f7c55091512
+  sha1: sha256:bea5405247a4c3fa0181a194f3cc0f905245b1aba60c8bf49ce9e8e601ac11f4
   packages:
   - python3
   - curator
 packages:
 - name: curator
-  version: eda61005507e5e9743314ba422ef84446ea9272c6bd95b914bba72ddacceedfa
-  fingerprint: eda61005507e5e9743314ba422ef84446ea9272c6bd95b914bba72ddacceedfa
-  sha1: sha256:41dcc2dac7e1e52d1e2115afc0dcf2ac8806b3aaf901ba19404622b01c9cfeec
+  version: 0f620d70c36af14ccf046038ceaf331110275319758e282e546a775a2fcc21d3
+  fingerprint: 0f620d70c36af14ccf046038ceaf331110275319758e282e546a775a2fcc21d3
+  sha1: sha256:b3d3a4114e5fbdaa084ec10ec27b16bfcd86d23c65d44a372eec89efc8d1e636
   dependencies:
   - python3
 - name: python3
   version: dc51f09a5ed11cb80a0ac69fb819e1cffe025bdcc1d0ffd5605b76ab1af9225d
   fingerprint: dc51f09a5ed11cb80a0ac69fb819e1cffe025bdcc1d0ffd5605b76ab1af9225d
-  sha1: sha256:e00200bfaf6987e7584030db675fa071c1ea0efcdad1f8e56d8da3fb548037cc
+  sha1: sha256:f78b1d4650df7d7320004e133378a3f2e9c1972b8eed1467d55a7ba3bc64d640
   dependencies: []
 license:
   version: 497961e97a84a4ba8f2b8f9448d6539fd04d070ae843af09bd4910a728ff7127
   fingerprint: 497961e97a84a4ba8f2b8f9448d6539fd04d070ae843af09bd4910a728ff7127
-  sha1: sha256:659f8090431a2ab427906c7c35a7c6ec6e4cd5cd16de22d1f5f4d80c893869ed
+  sha1: sha256:3b25782d65c104334fee8cb7aeb61aebca62e1a33f9a149e4d7c3019c3db6479
